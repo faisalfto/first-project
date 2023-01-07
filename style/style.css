@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section_container{
+    width:1600px ;
+}
+/* header css  start */
+#head{
+ background-image: url(/images/banner/banner1.png);
+   
+    height: 800px;
+}
+.head_detlis{
+    padding-top: 200px;
+    padding-right: 230px;
+    text-align: right;
+
+}
+.head_detlis h1{
+    font-size: 65px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.head_detlis p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.btn{
+    padding: 20px 26px;
+    font-weight: 600;
+    font-size: 20px;
+   background-color: #F15B22;
+   margin-top: 32px;
+   border: none;
+   color: aliceblue;
+   border-radius: 10px;
+}
+/* header css end */
+
+/* my failures css start */
+#failures{
+    display: flex;
+   padding: 130px;
+   gap: 100px;
+
+}
+.my_failures h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    margin-top: 270px;
+}
+.my_failures p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+    color: #151414;
+    margin-top: 20px;
+}
+li{
+ list-style: none;
+ line-height: 25px;
+}
+li>i{
+    color: blue;
+}
+/* my failures css end */
+
+/* my plan css start */
+
+#plan{
+    padding: 130px 230px;
+}
+#plan h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+   
+   
+    
+}
+
+.my_plans{
+    display: flex;
+justify-content: space-between;
+  text-align: center;
+  margin-top: 55px;
+}
+.plan h2{
+ font-size: 30px;
+ font-weight: 700;
+ color: #151414;
+
+}
+.my_plans .plan p{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+/* my plan  css end  */
+/* maindset css start */
+#mindset{
+background-image: url(/images/watch.png)  ;
+    width: 1140px;
+    height: 300px;
+    margin: 130px 230px;
+
+    
+}
+.linear{
+    
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+}
+.linear h1{
+    font-size: 40px;
+    font-weight: 700;
+    padding-left:65px ;
+    padding-top: 60px ;
+
+}
+.btn-1{
+    background-color: aliceblue;
+    color: #F15B22;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left:65px ;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+/* maindset css start */
+/* footer start */
+footer{
+    background-color: #151414;
+   
+  
+    padding: 230px;
+    display: flex;
+    gap: 330px;
+
+}
+.future h1{
+    color: aliceblue;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.future p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: aliceblue;
+}
+.p{
+    margin-top: 20px;
+    color: aliceblue;
+}
+.social{
+    margin-top: 25px;
+
+}
+.subscribe_from{
+    color: aliceblue;
+   font-size: 25px;
+   font-weight: 400;
+}
+#subscribe{
+    padding: 5px 10px;
+    color: aliceblue;
+    background-color:#151414;
+    margin-top: 25px;
+}
+#button{
+    display: block;
+    margin-top: 10px;
+    padding: 15px 25px;
+    color: #F15B22;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+/* footer end */ 
