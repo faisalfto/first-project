@@ -7,8 +7,9 @@
 }
 /* header css  start */
 #head{
- background-image: url(../images/banner/banner1.png);
-   
+ background: url(../images/banner/banner1.png);
+   background-size: cover;
+
     height: 800px;
 }
 .head_detlis{
